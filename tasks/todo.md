@@ -1011,3 +1011,12 @@ Décisions produit validées le 2026-09-03 : le responsable doit pouvoir modifie
 ## Runbook production (2026-09-28)
 - [x] RUNBOOK.md ajoute a la racine : variables d env, CORS, Brevo, systemd, sauvegarde/restauration SQLite + procedure Postgres, rollback applicatif et donnees, checklist post-deploiement 10 points.
 - [x] DEPLOY.md pointe sur RUNBOOK.md pour la production complete, garde le setup local + Vercel.
+
+## Audit pédagogique SQLi (2026-10-04)
+
+- [x] Étape 1 — Cartographier les fichiers et appels SQL du backend.
+- [x] Étape 2 — Examiner statiquement les requêtes, leurs fragments dynamiques et la provenance des valeurs.
+- [ ] Étape 3 — Corriger séparément chaque vulnérabilité SQLi confirmée, s'il en existe.
+- [ ] Étape 4 — Vérifier la validation des entrées utilisées par les requêtes.
+- [ ] Étape 5 — Exécuter au maximum cinq tests SQLi ciblés, en local uniquement.
+- [ ] Étape 6 — Récapituler les constats, corrections, limites et commandes Git.
